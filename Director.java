@@ -1,7 +1,7 @@
 private class Director
     {
         //********************Creates random map*****************************************************
-        private void createDefaultMap(Builder builder)
+        protected void createDefaultMap(Builder builder)
         {
             builder.setRoads();
             builder.setReservoirs();
@@ -12,7 +12,7 @@ private class Director
         }
 
         //********************Creates map, customized by user****************************************
-        private void createUserMap(Builder builder)
+        protected void createUserMap(Builder builder)
         {
             System.out.println("Enter the number of roads: ");
             builder.setRoads(input.nextInt());
