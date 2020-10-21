@@ -34,21 +34,6 @@ public class Java_lab1 {
     //*******************All necessary classes*********************************************************
     //*************************************************************************************************
    
-    private static class Reservoir
-    {
-        private String reservoir_type;
-        private double depth;
-
-        private Reservoir(String type, double d) {
-            reservoir_type = type;
-            depth = d;
-        }
-
-        private void printAll() {
-            System.out.println("Reservoir type: " + reservoir_type + "\nDepth: " + depth);
-        }
-    }
-
 
     public static class Building
     {
