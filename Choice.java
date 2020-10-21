@@ -1,0 +1,4 @@
+enum Choice {
+  RANDOM,
+  CUSTOM;
+};
