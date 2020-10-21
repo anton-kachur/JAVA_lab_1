@@ -1,4 +1,4 @@
-private static class Map
+private class Map
     {
         //*************************************************************************************************
         //**********************Nested class, because each map has its own relief**************************
