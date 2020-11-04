@@ -1,4 +1,4 @@
-private class Reservoir
+private static class Reservoir
     {
         private String reservoir_type;
         private double depth;
