@@ -1,4 +1,4 @@
-private class Road
+private static class Road
     {
         private String road_type;
         private int number_of_lanes;
